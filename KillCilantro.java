@@ -6,7 +6,6 @@ int y = 0;
 int  n = 0;
 String killCilantro = string;
 while (i + 7 < string.length()) {
-System.out.println(string.substring(i, i + 8));
 if (string.substring(i, i + 8).equals("cilantro")) {
 x = i;
 y = i + 8;
@@ -18,13 +17,13 @@ i += 1;
 if (y > 0) {
 
 }
-//I know the code is weird but it works
 return killCilantro;
 }
-
+//I know the code is weird but it works
 
 
 public static void main(String[] args) {
 System.out.println(killCilantro("Acilantrobbcilantrobcdefgcilantrohijcilantrouuuucilantro"));
+System.out.println(killCilantro("cccilantrcilantrro"));
 }
 }
