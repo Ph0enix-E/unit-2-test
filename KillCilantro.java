@@ -14,9 +14,6 @@ n += 1;
 }
 i += 1;
 }
-if (y > 0) {
-
-}
 return killCilantro;
 }
 
