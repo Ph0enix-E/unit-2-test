@@ -19,9 +19,9 @@ if (y > 0) {
 }
 return killCilantro;
 }
+
+
 //I know the code is weird but it works
-
-
 public static void main(String[] args) {
 System.out.println(killCilantro("Acilantrobbcilantrobcdefgcilantrohijcilantrouuuucilantro"));
 System.out.println(killCilantro("cccilantrcilantrro"));
